@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    background-color: #112044;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.portfolio {
+
+    position: relative;
+
+    min-height: 1400px;
+
+}
+
+
+
+/* Title */
+
+.title {
+
+    position: absolute;
+
+    top: 150px;
+
+    left: 150px;
+
+    margin: 0;
+
+    font-size: 35px;
+
+    font-weight: normal;
+
+}
+
+
+
+/* Right side description */
+
+.about {
+
+    position: absolute;
+
+    top: 100px;
+
+    left: 800px;
+
+    width: 900px;
+
+    font-size: 30px;
+
+    line-height: 1.4;
+
+}
+
+
+
+/* Experience text */
+
+.experience {
+
+    position: absolute;
+
+    top: 330px;
+
+    left: 150px;
+
+    width: 425px;
+
+    font-size: 20px;
+
+    line-height: 1.5;
+
+}
+
+
+
+/* Discord + extra link */
+
+.links {
+    position: absolute;
+    top: 600px;
+    left: 150px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.links a {
+    width: 120px;
+    height: 35px;
+
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+
+
+/* Images */
+
+.images {
+
+    position: absolute;
+
+    top: 760px;
+
+    left: 150px;
+
+}
+
+
+.images img {
+
+    display: block;
+
+    width: 300px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    margin-bottom: 40px;
+
+}
